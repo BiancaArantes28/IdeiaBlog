@@ -1,0 +1,338 @@
+.conteudo {
+  height: 100%; }
+
+.lancamentos .informacoesLancamentos, .sobre-mim .sobre-mim-descricao, .sobre-mim .sobre-mim-redes, .categorias, .ultimas-resenhas {
+  padding: 20px 25px 25px; }
+
+.lancamentos .informacoesLancamentos, .sobre-mim, .categorias, .ultimas-resenhas {
+  width: 100%;
+  background-color: #ffffff; }
+
+html, body {
+  width: 100%;
+  height: 100%; }
+
+body {
+  background-color: #f3f3f5;
+  margin: 0;
+  color: #383838;
+  font-family: Georgia;
+  font-size: 15px; }
+
+h3 {
+  font-weight: bold;
+  text-align: center; }
+
+.margin-top-30 {
+  margin-top: 30px; }
+
+.margin-top-20 {
+  margin-top: 20px; }
+
+.conteudo {
+  display: table;
+  width: 100%; }
+  .conteudo .header {
+    width: 100%;
+    background: url(../img/background.png) repeat-x center top;
+    position: relative;
+    height: 636px; }
+    .conteudo .header .logo {
+      max-width: 768px;
+      display: block;
+      margin: auto;
+      padding: 300px 30px 60px;
+      position: relative;
+      transition: .8s; }
+      .conteudo .header .logo img {
+        max-width: 100%;
+        height: auto; }
+
+.menu {
+  margin-bottom: 26px;
+  transition: background .3s;
+  top: -50px; }
+  .menu .menu-toggle {
+    display: none; }
+    @media screen and (max-width: 1128px) {
+      .menu .menu-toggle {
+        display: block;
+        position: absolute;
+        color: #383838; } }
+  .menu .listaMenu {
+    float: left;
+    overflow: hidden;
+    width: 694.47px; }
+    .menu .listaMenu ul {
+      list-style: none;
+      margin: 0 auto;
+      padding: 0; }
+      @media screen and (max-width: 1128px) {
+        .menu .listaMenu ul {
+          text-align: center; } }
+      .menu .listaMenu ul li {
+        display: inline-block;
+        font: 11px Lato;
+        margin-right: 30px;
+        padding: 11px 0px 11px 0px; }
+        @media screen and (max-width: 1128px) {
+          .menu .listaMenu ul li {
+            display: block;
+            border-top: 1px solid #d9b4c6;
+            border-bottom: none;
+            margin-right: 0; } }
+        @media screen and (max-width: 1128px) {
+          .menu .listaMenu ul li:hover {
+            border-top: 1px solid #d9b4c6; } }
+        .menu .listaMenu ul li a {
+          color: #383838;
+          vertical-align: middle; }
+          .menu .listaMenu ul li a i {
+            margin-right: 5px;
+            color: #d9b4c6; }
+          .menu .listaMenu ul li a:hover {
+            color: #d9b4c6;
+            text-decoration: none; }
+    @media screen and (max-width: 1128px) {
+      .menu .listaMenu {
+        width: 100%;
+        padding-top: 35px;
+        border-bottom: 1px solid #d9b4c6;
+        float: none;
+        display: none; } }
+
+.search {
+  float: left;
+  width: 384px; }
+  @media screen and (max-width: 1128px) {
+    .search {
+      position: absolute;
+      top: 0;
+      right: 25px; } }
+  .search .buscar {
+    width: 85%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font: 11px Lato;
+    color: #383838;
+    float: left;
+    border: 0;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    padding-top: 11px;
+    padding-bottom: 11px; }
+    @media screen and (max-width: 1128px) {
+      .search .buscar {
+        padding-top: 5px;
+        padding-bottom: 5px; } }
+  .search .buttonSearch {
+    font: 11px Lato;
+    color: #383838;
+    width: 10%;
+    cursor: pointer;
+    float: right;
+    transition: .5s;
+    border: 0;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    padding-top: 11px;
+    padding-bottom: 11px; }
+    @media screen and (max-width: 1128px) {
+      .search .buttonSearch {
+        padding-top: 5px;
+        padding-bottom: 5px; } }
+    .search .buttonSearch:hover {
+      color: #d9b4c6; }
+
+.content-menu {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 25px;
+  position: relative;
+  box-sizing: content-box; }
+
+.fixed {
+  background: rgba(255, 255, 255, 0.97);
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding: 5px 0 5px;
+  z-index: 999;
+  transition: .5s; }
+  @media screen and (max-width: 1128px) {
+    .fixed {
+      min-height: 31px; } }
+
+.wrapper {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 25px;
+  position: relative;
+  box-sizing: content-box;
+  margin-top: 60px;
+  margin-bottom: 30px; }
+
+.col-xs-12 {
+  margin-bottom: 20px; }
+
+.dicas {
+  max-height: 220px;
+  height: 220px;
+  padding: 10px; }
+  .dicas .link-dicas {
+    bottom: 0;
+    display: block;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 99; }
+  .dicas .titulo-dicas {
+    border: 1px solid #ffffff;
+    width: 100%;
+    height: 100%;
+    vertical-align: baseline; }
+    .dicas .titulo-dicas span {
+      background-color: rgba(255, 255, 255, 0.9);
+      color: #000;
+      display: inline-block;
+      font-size: 11px;
+      left: 50%;
+      letter-spacing: 2px;
+      line-height: 18px;
+      max-width: 80%;
+      padding: 8px 12px 7px 14px;
+      position: absolute;
+      text-transform: uppercase;
+      top: 50%;
+      -webkit-transform: translateY(-50%) translateX(-50%);
+      -moz-transform: translateY(-50%) translateX(-50%);
+      -o-transform: translateY(-50%) translateX(-50%);
+      -ms-transform: translateY(-50%) translateX(-50%);
+      transform: translateY(-50%) translateX(-50%);
+      text-align: center; }
+
+.ferias {
+  background-image: url(../img/ferias.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%; }
+
+.ti {
+  background-image: url(../img/ti.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%; }
+
+.romance {
+  background-image: url(../img/romance.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%; }
+
+.autoajuda {
+  background-image: url(../img/autoajuda.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%; }
+
+.lancamentos {
+  width: 100%;
+  border-top: 3px solid #383838; }
+  .lancamentos .heightLancamentos {
+    min-height: 485px;
+    max-height: 485px;
+    overflow: hidden; }
+  .lancamentos h3 {
+    background-color: #f3f3f5;
+    display: inline;
+    float: left;
+    padding: 0 10px 0 0;
+    margin-top: -18px; }
+  .lancamentos img {
+    width: 100%;
+    max-height: 300px; }
+  .lancamentos .informacoesLancamentos h2 {
+    margin: 0; }
+
+.sobre-mim .sobre-mim-header {
+  height: 115px;
+  background-color: #FFB6C1; }
+.sobre-mim .foto-perfil {
+  margin-top: -100px;
+  margin-left: auto; }
+.sobre-mim .myFoto {
+  position: relative;
+  z-index: 1;
+  border-radius: 50%;
+  max-width: 230px !important;
+  min-height: 230px !important;
+  display: block;
+  margin: auto; }
+.sobre-mim .sobre-mim-descricao p {
+  text-align: center; }
+.sobre-mim .sobre-mim-redes ul {
+  list-style: none;
+  display: block;
+  width: 60%;
+  padding: 0;
+  text-align: center;
+  margin: auto; }
+  .sobre-mim .sobre-mim-redes ul li {
+    display: inline-block;
+    margin-right: 15px; }
+    .sobre-mim .sobre-mim-redes ul li a {
+      color: #383838;
+      font-size: 25px;
+      cursor: pointer; }
+      .sobre-mim .sobre-mim-redes ul li a:hover {
+        color: #d9b4c6; }
+
+.categorias ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-bottom: 1px solid #383838; }
+  .categorias ul li {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    font-weight: bold;
+    background-color: #FFB6C1;
+    text-align: center;
+    border-top: 1px solid #383838; }
+    .categorias ul li a {
+      color: #383838;
+      cursor: pointer; }
+      .categorias ul li a:hover {
+        color: #ffffff;
+        text-decoration: none; }
+
+.ultimas-resenhas {
+  min-height: 430px;
+  height: auto;
+  position: relative; }
+  .ultimas-resenhas .imgPostHome {
+    width: 30%;
+    height: 96px;
+    float: left;
+    margin-right: 5%; }
+    .ultimas-resenhas .imgPostHome img {
+      width: 100%;
+      height: 100%; }
+  .ultimas-resenhas .descricaoPostHome {
+    width: 55%;
+    height: 96px;
+    float: left;
+    display: table; }
+    .ultimas-resenhas .descricaoPostHome p {
+      top: 50%;
+      display: table-cell;
+      vertical-align: middle; }
+      .ultimas-resenhas .descricaoPostHome p span {
+        display: block;
+        top: -50%;
+        text-align: left; }
+
+/*# sourceMappingURL=layout.css.map */
