@@ -4,7 +4,7 @@
 .lancamentos .informacoesLancamentos, .sobre-mim .sobre-mim-descricao, .sobre-mim .sobre-mim-redes, .categorias, .ultimas-resenhas {
   padding: 20px 25px 25px; }
 
-.lancamentos .informacoesLancamentos, .sobre-mim, .categorias, .ultimas-resenhas {
+.lancamentos .informacoesLancamentos, .novidades, .sobre-mim, .categorias, .ultimas-resenhas {
   width: 100%;
   background-color: #ffffff; }
 
@@ -28,6 +28,9 @@ h3 {
 
 .margin-top-20 {
   margin-top: 20px; }
+
+.margin-top-10 {
+  margin-top: 10px; }
 
 .conteudo {
   display: table;
@@ -243,7 +246,8 @@ h3 {
   .lancamentos .heightLancamentos {
     min-height: 485px;
     max-height: 485px;
-    overflow: hidden; }
+    overflow: hidden;
+    padding-right: 0; }
   .lancamentos h3 {
     background-color: #f3f3f5;
     display: inline;
@@ -255,6 +259,39 @@ h3 {
     max-height: 300px; }
   .lancamentos .informacoesLancamentos h2 {
     margin: 0; }
+
+.padding-left-0 {
+  padding-left: 0; }
+
+.position-relative-novidades {
+  position: relative; }
+
+.novidades {
+  padding: 10px;
+  min-height: 485px;
+  max-height: 485px;
+  overflow: hidden;
+  position: relative; }
+  .novidades .eachBoxNovidades {
+    border-bottom: 1px solid #f3f3f5;
+    position: relative;
+    width: 100%;
+    padding-bottom: 15px;
+    display: table;
+    height: auto; }
+    .novidades .eachBoxNovidades .fotoNovidades {
+      width: 20%;
+      float: left;
+      display: table-row; }
+      .novidades .eachBoxNovidades .fotoNovidades img {
+        width: 100%; }
+    .novidades .eachBoxNovidades .content-novidades {
+      width: 80%;
+      float: left;
+      display: table-row;
+      padding-left: 10px; }
+      .novidades .eachBoxNovidades .content-novidades p {
+        text-align: left; }
 
 .sobre-mim .sobre-mim-header {
   height: 115px;
@@ -270,24 +307,28 @@ h3 {
   min-height: 230px !important;
   display: block;
   margin: auto; }
-.sobre-mim .sobre-mim-descricao p {
-  text-align: center; }
-.sobre-mim .sobre-mim-redes ul {
-  list-style: none;
-  display: block;
-  width: 60%;
-  padding: 0;
-  text-align: center;
-  margin: auto; }
-  .sobre-mim .sobre-mim-redes ul li {
-    display: inline-block;
-    margin-right: 15px; }
-    .sobre-mim .sobre-mim-redes ul li a {
-      color: #383838;
-      font-size: 25px;
-      cursor: pointer; }
-      .sobre-mim .sobre-mim-redes ul li a:hover {
-        color: #d9b4c6; }
+.sobre-mim .sobre-mim-descricao {
+  padding-bottom: 15px; }
+  .sobre-mim .sobre-mim-descricao p {
+    text-align: center; }
+.sobre-mim .sobre-mim-redes {
+  padding-top: 7px; }
+  .sobre-mim .sobre-mim-redes ul {
+    list-style: none;
+    display: block;
+    width: 60%;
+    padding: 0;
+    text-align: center;
+    margin: auto; }
+    .sobre-mim .sobre-mim-redes ul li {
+      display: inline-block;
+      margin-right: 15px; }
+      .sobre-mim .sobre-mim-redes ul li a {
+        color: #383838;
+        font-size: 25px;
+        cursor: pointer; }
+        .sobre-mim .sobre-mim-redes ul li a:hover {
+          color: #d9b4c6; }
 
 .categorias ul {
   list-style: none;

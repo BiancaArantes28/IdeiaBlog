@@ -29,6 +29,9 @@ h3{
 .margin-top-20{
     margin-top: 20px;
 }
+.margin-top-10{
+    margin-top: 10px;
+}
 .conteudo{
     display: table;
     width: 100%;
@@ -276,6 +279,7 @@ h3{
         min-height: 485px;
         max-height: 485px;
         overflow: hidden;
+        padding-right: 0;
     }
     h3{
         background-color: #f3f3f5;
@@ -296,6 +300,47 @@ h3{
         @extend %define-box;
         @extend %define-padding;
     }
+}
+.padding-left-0{
+    padding-left: 0; 
+}
+.position-relative-novidades{
+    position:relative;
+}
+.novidades{
+    @extend %define-box;
+    padding: 10px;
+    min-height: 485px;
+    max-height: 485px;
+    overflow: hidden;
+    position: relative;
+    .eachBoxNovidades{
+        border-bottom: 1px solid #f3f3f5;
+        position: relative;
+        width: 100%;
+        padding-bottom: 15px;
+        display: table;
+        height: auto;
+        .fotoNovidades{
+            width: 20%;
+            float: left;
+            display: table-row;
+            img{
+                width: 100%;
+            }
+        }
+        
+        .content-novidades{
+            width: 80%;
+            float: left;
+            display: table-row;
+            padding-left: 10px;
+            p{
+                text-align: left;
+            }
+        }
+    }
+    
 }
 .sobre-mim{
     @extend %define-box;
@@ -320,6 +365,7 @@ h3{
     }
     .sobre-mim-descricao{
         @extend %define-padding;
+        padding-bottom: 15px;
         p{
             text-align: center;
         }
@@ -327,6 +373,7 @@ h3{
     }
     .sobre-mim-redes{
         @extend %define-padding;
+        padding-top: 7px;
         ul{
             list-style: none;
             display: block;
